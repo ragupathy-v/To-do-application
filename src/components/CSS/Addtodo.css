@@ -1,0 +1,93 @@
+input{
+    background-color: rgb(57, 53, 53);
+    border: 1px solid #61dafb;
+    padding: 15px;
+    width: 50%;
+    color: aliceblue;
+    outline: none;
+    border-radius: 5px;
+    margin: 20px;
+    font-size: larger;
+}
+.warp-para{
+    display: flex;
+    border: 2px solid #29f362;
+    width: 40%;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
+    word-wrap: break-word; 
+    word-break: break-word; 
+    overflow-wrap: anywhere; 
+   margin: 20px;
+
+}
+.incomplete-warp-para{
+    display: flex;
+    border: 2px solid #f44c57;
+    width: 40%;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
+    word-wrap: break-word; 
+    word-break: break-word; 
+    overflow-wrap: anywhere; 
+   margin: 20px;
+
+}
+.todo-completed{
+    
+    display: flex;
+    width: 100%;
+    color:gray;
+    text-decoration: line-through;
+    height: auto;
+    padding: 10px;
+    font-size: 17px;
+     
+}
+
+.todo-incomplte{
+   
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    color: #ffffff;
+    height: auto;
+    padding: 10px;
+    font-size: 17px;
+   
+}
+.add-todo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+}
+
+
+.delete-btn{
+    background-color:#212121;
+    border: none;
+    margin: 5px;
+    
+}
+.error{
+    color: #f50057;
+}
+::placeholder{
+    font-size: medium;
+    letter-spacing: 2px;
+}
+.item-container{
+   height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+

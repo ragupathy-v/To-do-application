@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#root{
+  background-color: #212121;
+  height: 100vh;
+}
+.App {
+  text-align: center;
+  background-color: #212121;
+  color: #61dafb;
+  width: 100vw;
+  height: auto;
+}
+
+
+.heading{
+  padding: 30px;
+  letter-spacing: 12px;
+  font-size:50px;
+  text-shadow: 1px 4px 20px #61dafb;
+ 
+}
+
+
+
+
+
